@@ -121,15 +121,19 @@ void ScanThread::parseFile(QFileInfo &fi)
             }
         }
 
-        text << out;
-
-        out = out.remove(rx1);
-        idx2 = out.indexOf(str2);
-
-        if (idx2 >= 0)
+        // If founded startBlock and endBlock, so we have text data
+        if ( done )
         {
-            questions << out.mid(idx2+sl2, out.length()-(idx2+sl2)+1);
-            idx2 = -1;
+            text << out;
+
+            out = out.remove(rx1);
+            idx2 = out.indexOf(str2);
+
+            if (idx2 >= 0)
+            {
+                questions << out.mid(idx2+sl2, out.length()-(idx2+sl2)+1);
+                idx2 = -1;
+            }
         }
 
         // Close the file
