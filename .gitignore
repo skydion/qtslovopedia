@@ -1,6 +1,6 @@
 debug/*
 release/*
-qtCrossword
+qtSlovopedia
 .directory
 
 # Created by https://www.gitignore.io/api/qt
