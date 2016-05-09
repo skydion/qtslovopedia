@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/about16.png</file>
+        <file>icons/add_file16.png</file>
+        <file>icons/add_folder16.png</file>
+        <file>icons/application16.png</file>
+        <file>icons/break16.png</file>
+        <file>icons/check16.png</file>
+        <file>icons/close16.png</file>
+        <file>icons/connect16.png</file>
+        <file>icons/copy16.png</file>
+        <file>icons/cut16.png</file>
+        <file>icons/delete16.png</file>
+        <file>icons/disconnect16.png</file>
+        <file>icons/download16.png</file>
+        <file>icons/edit16.png</file>
+        <file>icons/email16.png</file>
+        <file>icons/favorites16.png</file>
+        <file>icons/firefox_file16.png</file>
+        <file>icons/folder16.png</file>
+        <file>icons/forward16.png</file>
+        <file>icons/globe16.png</file>
+        <file>icons/help16.png</file>
+        <file>icons/home16.png</file>
+        <file>icons/html_file16.png</file>
+        <file>icons/image_file16.png</file>
+        <file>icons/jscript_file16.png</file>
+        <file>icons/my_documents16.png</file>
+        <file>icons/new16.png</file>
+        <file>icons/open16.png</file>
+        <file>icons/opened_folder16.png</file>
+        <file>icons/paste16.png</file>
+        <file>icons/pause16.png</file>
+        <file>icons/play16.png</file>
+        <file>icons/preview16.png</file>
+        <file>icons/rewind16.png</file>
+        <file>icons/save16.png</file>
+        <file>icons/search16.png</file>
+        <file>icons/stop16.png</file>
+        <file>icons/style_file16.png</file>
+        <file>icons/synchronize16.png</file>
+        <file>icons/x16.png</file>
+        <file>icons/make.png</file>
+    </qresource>
+</RCC>
