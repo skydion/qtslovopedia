@@ -10,6 +10,7 @@
 #include <QtGlobal>
 #include <QSqlQueryModel>
 #include <QDataWidgetMapper>
+#include <QMessageBox>
 
 #include "scanthread.h"
 

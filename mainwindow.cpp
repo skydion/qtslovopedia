@@ -28,7 +28,16 @@ MainWindow::MainWindow(QWidget *parent) :
     db.setDatabaseName("slovopedia");
     db.setUserName("taras");
     db.setPassword("su112per");
-    db.open();
+
+    if ( !db.open() )
+      {
+        qDebug() << db.lastError().text();
+
+        QMessageBox msgBox;
+        msgBox.setText(tr("Database open error!"));
+        msgBox.exec();
+        exit(1);
+      }
 
     // File menu
     //    actionExit = new QAction(QIcon(":/icons/x16.png"), QString(tr("Exit")), this);
