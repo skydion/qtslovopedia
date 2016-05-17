@@ -3,7 +3,7 @@ drop database if exists slovopedia;
 create database slovopedia DEFAULT CHARACTER SET = UTF8;
 use slovopedia;
 
-drop table if exists works;
+# drop table if exists works;
 
 create table works
 (
@@ -32,4 +32,4 @@ create table works
 
   # номер словника, може для тематичних кросводів
   _vocabulary tinyint unsigned not null default 0
-) type=innodb;
+) engine=innodb;
